@@ -10,6 +10,9 @@
  */
 
 const palindrome = (str) => {
+    const reverseString = str.split("").reverse().join("")
+
+    return str === reverseString
   
 };
 
